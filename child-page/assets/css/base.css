@@ -1,0 +1,15 @@
+:root{
+    --body-color:rgb(237 242 250);
+    --text-color:#fff;
+    --background-color: rgb(175, 206, 239);
+    --user-color:rgb(199, 86, 25);
+    --part_2-color:#fff;
+}
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+body{
+    background-color: var(--);
+}

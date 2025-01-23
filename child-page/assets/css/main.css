@@ -1,0 +1,59 @@
+.part{
+    list-style: none;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(253, 253,253, 1);
+}
+
+.part{
+    display: flex;
+    
+    
+}
+.part_2,.part_3,.part_1{
+    font-size: 24px;
+}
+.part_1+.part_1{
+    margin-left: 20px;
+}
+.part_2+.part_2{
+    margin-left: 50px;
+}
+.part_3+.part_3{
+    margin-left: 50px;
+}
+.part_3{
+    margin-right: 10px;
+}
+.logo{
+    width: 59px;
+    height: 57px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -10px;
+    background-color: var(--background-color);
+}
+.part_1{
+    margin-left: -30px;
+}
+.part_2,.part_1{
+    color: var(--background-color);
+}
+.key{
+    color: rgb(208, 248, 157);
+}
+.user{
+    color: var(--user-color);
+}
+.title{
+    color: var(--background-color);
+}
+.course{
+    background-color: ;
+}
